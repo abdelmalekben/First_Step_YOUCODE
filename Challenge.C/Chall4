@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    float fahrenheit, celsius;
+
+    printf("Entrez la température en Fahrenheit : ");
+    scanf("%f", &fahrenheit);
+
+    celsius = (fahrenheit - 32) / 1.8;
+
+    if (celsius < 0) {
+        printf("Sensation : Très froid\n");
+    } else if (celsius >= 0 && celsius < 10) {
+        printf("Sensation : Froid\n");
+    } else if (celsius >= 10 && celsius < 20) {
+        printf("Sensation : Chaud\n");
+    } else {
+        printf("Sensation : Très chaud\n");
+    }
+
+    printf("La température en Celsius est : %.2f\n", celsius);
+
+    return 0;
+}

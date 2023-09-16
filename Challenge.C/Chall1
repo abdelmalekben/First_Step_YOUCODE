@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main() {
+	char nom[10];
+	char prenom[10];
+	int age;
+	char sex;
+	int telephon;
+	printf("entre le nome: ");
+	scanf("%s",&nom);
+	printf("entre le prenom: ");
+	scanf("%s",&prenom);
+	printf("entre age:");
+	scanf("%d",&age);
+	printf("entre le sex:");
+	scanf("%s",&sex);
+	printf("entre le numero de telephone:");
+	scanf("%d",&telephon);
+	
+	return 0;

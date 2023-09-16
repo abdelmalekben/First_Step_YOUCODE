@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main() {
+	float fe;
+	float ce;
+
+	printf("Enter la temperature en Fahrenheit:");
+	scanf("%f",&fe);
+	ce=(fe-32)/1.8;
+	printf("la temperature en Celsius:%f",ce);
+	scanf("%f",&ce);
+	if(ce>10)
+	printf("tres chau");
+	
+	return 0;
+	
+	}
