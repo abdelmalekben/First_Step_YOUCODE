@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+#include <math.h>
+
+
+int main() {
+	float x1,x2,y1,y2,D;
+	printf("Entre les valeurs de coordonnees 1er point:\n");
+	printf("Entre la valeur de X de 1er point:");
+	scanf("%f",&x1);
+	printf("Entre la valeur de Y de 1er point:");
+	scanf("%f",&y1);
+	printf("Entre la valeur de X de 2em point:");
+	scanf("%f",&x2);
+	printf("Entre la valeur de Y de 2em point:");
+	scanf("%f",&y2);
+	D=sqrt(pow(x2-x1,2))-sqrt(pow(y2-y2,2));
+		printf("la distance entre les deux points est:%.2f",D);
+		
+
+	
+	
+	
+	return 0;
+}
+
