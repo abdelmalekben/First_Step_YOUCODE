@@ -1,0 +1,41 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+main() {
+ 	int x,y;
+ 	char Char;
+ 	printf("1:(+)\n2:(-)\n3:(*)\n4:(/)\nEnter a choice:");
+ 	scanf("%c",&Char);
+ 	printf("enter first numbre:");
+ 	scanf("%d",&x);
+ 	printf("enter scond numbre:");
+ 	scanf("%d",&y);
+ 	
+ 	switch (Char){
+	 case '1':
+ 	 case '+':
+ 	 printf("%d+%d=%d",x,y,x+y);
+ 	 break;
+ 	 
+	 case '2':
+ 	 case '-':
+ 	 printf("%d-%d=%d",x,y,x-y);
+ 	 break;
+
+	 case '3':
+ 	 case '*':
+ 	 printf("%d*%d=%d",x,y,x*y);
+ 	 break;
+ 	 
+	 case '4':
+ 	 case '/':
+ 	 printf("%d/%d=%d",x,y,x/y);
+ 	 break;
+ 	 
+ 	 default:
+ 	 printf("s'il vous plait entrer l'un des quatre choix");
+ 	 break;
+ 	 
+	 }
+ } 
+	 
