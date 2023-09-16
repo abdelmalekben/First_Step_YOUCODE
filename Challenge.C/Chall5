@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main() {
+	float nmbr1,nmbr2,nmbr3,Somme,Moyenne ;
+	printf("Entre le 1er nombre: \n");
+	scanf("%f",&nmbr1);
+	printf("Entre la 2em nombre:\n");
+	scanf("%f",&nmbr2);
+	printf("Entre la 3emm nombre:\n");
+	scanf("%f",&nmbr3);
+
+	Somme=nmbr1+nmbr2+nmbr3;
+	printf("la somme est:%.2f\n",Somme);
+    Moyenne=Somme/3;
+	printf("la moyenne est:%.2f",Moyenne);
+		
+	
+	
+	return 0;
